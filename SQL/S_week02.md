@@ -72,7 +72,7 @@ USE market_db;
 
 ---
 
-## 2. `SELECT` 문의 전체 구조
+### `SELECT` 문의 전체 구조
 
 * **실무에서 자주 쓰는 핵심 포맷**
 ```sql
@@ -89,7 +89,7 @@ LIMIT 숫자
 
 ---
 
-## 3. `SELECT`와 `FROM`의 기본 사용법
+### `SELECT`와 `FROM`의 기본 사용법
 
 DB 선택 -> 특정 테이블의 데이터를 모두 불러오는 가장 기초적 쿼리
 
@@ -233,6 +233,7 @@ SELECT DISTINCT addr FROM member;
 | MAX() | 최대값을 구합니다. |
 | (ㄷ) | 행의 개수를 셉니다. |
 | (ㄹ) | 행의 개수를 셉니다 (중복은 1개만 인정). |
+```
 
 ```
 여기에 답을 적어주세요!
@@ -241,7 +242,6 @@ SELECT DISTINCT addr FROM member;
 (ㄷ) COUNT()
 (ㄹ) COUNT(DISTINCT)
 ```
-
 
 ## 3. 데이터 변경을 위한 SQL문
 
